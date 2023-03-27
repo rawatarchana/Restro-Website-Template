@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home_main{
+    background-image:url('images/home.webp') ;
+    height: 650px;
+  
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+
+}
+.logo{
+    top: 10px;
+    position: relative
+}
+.logo img{
+   
+     width: 125px;
+    height: 125px;
+    border-radius: 69px;
+}
+.nav-bar{
+    color: #fff !important;
+    position: relative;
+    top: 30px;
+
+}
+.nav-bar hr{
+    
+    margin: 0px;
+}
+.nav-bar ul{
+    width: 80%;
+    
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+.main{
+    width: 100%;
+    color: #fff;
+    top: 70px;
+    position: relative;
+}
+.main h6{
+    font-weight: 300;
+}
+.main h1{
+    font-weight: 900;
+    font-size: 60px
+}
+.main-text{
+    max-width: 515px;
+}
+
+footer{
+    background-color:#e81c25;
+    color:#fff;
+  
+}
+.footer-bottom-wrap{
+    background-color: rgb(11 4 4);
+    max-width:100%;
+    color: #fff;
+}
+.footer-bottom-wrap i{
+    color: #fff;
+}
+.footer-row{
+    
+    position: relative;
+    top: 30px;
+}
+
+.newslatter-btn{
+    left:-8%;
+    position:relative;
+    border-color:#fff !important;
+    background: #e81c25 !important;
+}
+
+@media only screen and (max-width:576px){
+    .newslatter-btn{
+        left:0% !important;
+    }
+}
+
+@media only screen and (min-width:767px){
+    .newslatter-btn{
+        left:-16% !important;
+    }
+}
