@@ -5,8 +5,8 @@ body{
 .home_main{
     position: absolute;
     width:100%;
-    background-image:url('images/home.webp') ;
-    height:650px;
+    background-image:url('images/feedback.jpg') ;
+    height:370px;
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -50,7 +50,10 @@ body{
 .nav-link:hover{
     color: #e81c25 !important;
 }
-
+.navbar-toggler-icon{
+    color: #fff;
+    
+}
 .main{
     width: 100%;
     color: #fff;
@@ -67,11 +70,6 @@ body{
 .main-text{
     max-width: 515px;
 }
-.navbar-toggler-icon{
-    color: #fff;
-    
-}
-
 footer{
     background-color:#e81c25;
     color:#fff;
@@ -109,17 +107,23 @@ footer{
         left:-16% !important;
     }
 }
-
-.carousel-item{
-    height:350px;
+.rating{
+    color: #fff;
+    font-weight: 900;
 }
-@media only screen and (max-width:767px){
-    .carousel-item{
-        height:250px !important;
-    }
+.rating i{
+    color: yellow !important;
+    font-size: 20px;
 }
-.carousel-item img {
-    height:100%;
+.card img{
+    height: 200px;
+}
+.card-title{
+    color:black;
+    font-weight: 700;
+}
+.card-text{
+    color: #ccc;
 }
 
 .carousel-item::before{
@@ -131,59 +135,8 @@ footer{
     margin:auto;
     left:0;
     right:0;
-    opacity:0.5;
+    opacity:0.4;
    
-}
-
-.info p{
-    color: #777;
-    font-family: "Poppins",sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.625em;
-}
-
-.col-cards{
-    width:250px !important;
-    height:250px !important;
-}
-
-.menu-cuisine ::-webkit-scrollbar {
-    width: 0px;
-    height: 3px;
-    background-color: #f5f5f5;
-}
-
-.menu-cuisine ::-webkit-scrollbar-thumb{
-    background-color: #383838;
-}
-
-.card img{
-    height: 150px;
-}
-
-.cuisine{
-    flex-direction: column;
-    overflow-y: hidden;
-    overflow-x: auto;
-    height:230px;
-}
-.delivery{
-    height: 350px;
-    
-}
-.delivery a{
-   position: relative;
-   top: 30px;
-   font-size: 30px;
-}
-.delivery img{
-    top: 50px;
-    position: relative;
-}
-.delivery h1{
-    
-    font-weight: 900;
 }
 .log_button{
     width: 100%;
